@@ -1,3 +1,6 @@
+import numpy as np
+import pandas as pd
+
 a = [123,123,1313213,43]
 a.__reduce__
 

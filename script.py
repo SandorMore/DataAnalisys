@@ -13,7 +13,7 @@ print(s)
 
 
 name = str(input("Name here: "))
-list_of_banned_names = ["nigga", "ass", "nigger", "hell", "fuck"]
+list_of_banned_names = ["nigga", "ass", "nigger", "hell", "fuck", "reggin", "aggin", "fasz", "geci"]
 
 for banned in list_of_banned_names:
     if banned in name:

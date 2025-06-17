@@ -15,6 +15,8 @@ print(s)
 name = str(input("Name here: "))
 list_of_banned_names = ["nigga", "ass", "nigger", "hell", "fuck"]
 
-for i in list_of_banned_names:
-    if i in name:
-        name = name.replace()
+for banned in list_of_banned_names:
+    if banned in name:
+        name = name.replace(banned, "*" * len(banned))
+
+print(name)

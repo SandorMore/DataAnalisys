@@ -10,7 +10,7 @@ letters = ['a','b','z', 'r', 'z', 'm', 'z']
 s = s.join(letters)
 
 print(s)
-
+print(a + b := 4)
 
 name = str(input("Name here: "))
 list_of_banned_names = ["nigga", "ass", "nigger", "hell", "fuck", "reggin", "aggin", "fasz", "geci"]

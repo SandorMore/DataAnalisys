@@ -20,3 +20,10 @@ for banned in list_of_banned_names:
         name = name.replace(banned, "*" * len(banned))
 
 print(name)
+
+
+class Kutya:
+    def __init__(self, name):
+        self.name = name
+
+print(Kutya("Bodri").name)

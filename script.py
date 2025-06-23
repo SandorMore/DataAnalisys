@@ -23,7 +23,8 @@ print(name)
 
 
 class Kutya:
-    def __init__(self, name):
+    def __init__(self, name, faj):
         self.name = name
+        self.faj = faj
 
-print(Kutya("Bodri").name)
+print(Kutya("Bodri", "Németjuhász"))

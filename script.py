@@ -27,4 +27,7 @@ class Kutya:
         self.name = name
         self.faj = faj
 
-print(Kutya("Bodri", "Németjuhász"))
+        if type(self.faj) != type("a"):
+            raise ValueError("Nem jó faj típus")
+
+print(Kutya("Bodri", 4).faj)

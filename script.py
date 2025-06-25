@@ -28,6 +28,6 @@ class Kutya:
         self.faj = faj
 
         if type(self.faj) != type("a"):
-            raise ValueError("Nem jó faj típus")
+            print("sigma")
 
 print(Kutya("Bodri", 4).faj)

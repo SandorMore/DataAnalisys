@@ -1,6 +1,6 @@
 import numpy as np
 import pandas as pd
-
+print(len("fueled sexmachine"))
 a = [123,123,1313213,43]
 a.__reduce__
 

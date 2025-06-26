@@ -20,7 +20,8 @@ for banned in list_of_banned_names:
         name = name.replace(banned, "*" * len(banned))
 
 print(name)
-
+name = name.replace(" ", "")
+print(f"A nec hossza whitespace nelkul: {len(name.strip())}")
 
 class Kutya:
     def __init__(self, name, faj):

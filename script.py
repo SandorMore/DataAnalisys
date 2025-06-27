@@ -31,4 +31,6 @@ class Kutya:
         if type(self.faj) != type("a"):
             print("sigma")
 
-print(Kutya("Bodri", 4).faj)
+    def ugat(self):
+        return "Vau"
+print(Kutya("Bodri", 4).ugat())

@@ -22,7 +22,6 @@ for banned in list_of_banned_names:
 print(name)
 name = name.replace(" ", "")
 print(f"A nec hossza whitespace nelkul: {len(name.strip())}")
-
 class Kutya:
     def __init__(self, name, faj):
         self.name = name
@@ -34,3 +33,10 @@ class Kutya:
     def ugat(self):
         return "Vau"
 print(Kutya("Bodri", 4).ugat())
+
+li = [[1,2,3],
+      [4,5,6],
+      [7,8,9]]
+print(li)
+for i in range(1,100):
+    print(i)

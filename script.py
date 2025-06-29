@@ -41,11 +41,13 @@ class Goon:
 
     def Bust(self):
         self.daysOfCharge = 0
-        print("Busted a nut")
+        print("Busted a nut") 
+    
         if self.fertile:
-            print("Chance for a child")
+            return "Chance for a child"
 
     def Edge(self):
-        print("Nincs bust kishaver!")
+        return "Nincs bust kishaver!"
 
 print(Kutya("Bodri", 4).ugat())
+print(Goon(5, 11, False).Bust())

@@ -32,4 +32,20 @@ class Kutya:
 
     def ugat(self):
         return "Vau"
+
+class Goon:
+    def __init__(self, load : int, daysOfCharge : int, fertile : bool):
+        self.load = load
+        self.daysOfCharge = daysOfCharge
+        self.fertile = fertile
+
+    def Bust(self):
+        self.daysOfCharge = 0
+        print("Busted a nut")
+        if self.fertile:
+            print("Chance for a child")
+
+    def Edge(self):
+        print("Nincs bust kishaver!")
+
 print(Kutya("Bodri", 4).ugat())

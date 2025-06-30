@@ -1,9 +1,29 @@
 import numpy as np
 import pandas as pd
+import random
 print(len("fueled sexmachine"))
 a = [123,123,1313213,43]
 a.__reduce__
+def playGame():
+    counter = 0
+    thought = random.randint(1,100)
+    while True:
+        x = int(input("Gondoltam egy szamra"))
+        if x == thought:
+            print("Nyertél")
+            print( f"{counter} tippből találtad ki")
+            break
+        
+        elif x > thought:
+            print("Az számom kisebb mint amire te gondoltál")
+        elif x < thought:
+            print("A számom nagyobb mint amire te gondoltál")
 
+        counter += 1    
+    return
+
+
+playGame()
 s = ""
 
 letters = ['a','b','z', 'r', 'z', 'm', 'z']
@@ -50,4 +70,4 @@ class Goon:
         return "Nincs bust kishaver!"
 
 print(Kutya("Bodri", 4).ugat())
-print(Goon(5, 11, False).Bust())
+print(Goon(5, 11, True).Bust())

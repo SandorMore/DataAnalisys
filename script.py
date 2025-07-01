@@ -22,7 +22,7 @@ def playGame():
         counter += 1    
     return
 
-
+print("jabud")
 print("sigma")
 
 playGame()

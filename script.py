@@ -23,6 +23,8 @@ def playGame():
     return
 
 
+print("sigma")
+
 playGame()
 s = ""
 

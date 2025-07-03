@@ -1,6 +1,9 @@
 import numpy as np
 import pandas as pd
 import random
+
+
+print("jabud", *range(10), sep="\t")
 print(len("fueled sexmachine"))
 a = [123,123,1313213,43]
 a.__reduce__

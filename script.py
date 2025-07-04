@@ -54,6 +54,9 @@ class Kutya:
 
         if type(self.faj) != type("a"):
             print("sigma")
+    
+    tries = ["ye","no"]
+    num = random.randint(1,len(tries))
 
     def ugat(self):
         return "Vau"

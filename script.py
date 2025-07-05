@@ -77,5 +77,12 @@ class Goon:
     def Edge(self):
         return "Nincs bust kishaver!"
 
+    def Baszas(spermStrength : int):
+        gyerekszületés : int = random.randint(1,10)
+        if gyerekszületés > 35:
+            return "Gyereked lesz"
+        return "Nincs gyerek"
+
+
 print(Kutya("Bodri", 4).ugat())
 print(Goon(5, 11, True).Bust())

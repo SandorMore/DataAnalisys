@@ -78,7 +78,7 @@ class Goon:
         return "Nincs bust kishaver!"
 
     def Baszas(spermStrength : int):
-        gyerekszületés : int = random.randint(1,10)
+        gyerekszületés : int = random.randint(1,10) * spermStrength
         if gyerekszületés > 35:
             return "Gyereked lesz"
         return "Nincs gyerek"

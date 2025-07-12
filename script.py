@@ -88,6 +88,7 @@ class Goon:
         if (hangerő > 5):
             return "Lebuktál"
         return "Shussh"
+    
     def LookForLoot(loadLevels):
         for i in loadLevels:
             if i is 3:

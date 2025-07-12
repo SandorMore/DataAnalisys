@@ -66,7 +66,8 @@ class Goon:
         self.load = load
         self.daysOfCharge = daysOfCharge
         self.fertile = fertile
-
+    
+    loadLevels = [1,2,3,4,6]
     def Bust(self):
         self.daysOfCharge = 0
         print("Busted a nut") 
@@ -87,6 +88,11 @@ class Goon:
         if (hangerő > 5):
             return "Lebuktál"
         return "Shussh"
+    def LookForLoot(loadLevels):
+        for i in loadLevels:
+            if i is 3:
+                print("Sigma")
+
 
 print(Kutya("Bodri", 4).ugat())
 print(Goon(5, 11, True).Bust())

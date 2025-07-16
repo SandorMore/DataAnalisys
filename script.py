@@ -1,6 +1,8 @@
 import numpy as np
 import pandas as pd
 import random
+def sigam():
+    return "Sigam"
 
 
 print("jabud", *range(10), sep="\t")

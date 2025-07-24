@@ -7,4 +7,4 @@ for i in "Sigma":
 
 print(*range(1,100), sep=" ", end="\t")
 
-print('"negate"')
+print('\"negate\"')

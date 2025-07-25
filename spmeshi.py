@@ -6,5 +6,5 @@ for i in "Sigma":
     print(i, end="\t")
 
 print(*range(1,100), sep=" ", end="\t")
-
+std::cout << "Sigma" << std::endl;
 print('\"negate\"')

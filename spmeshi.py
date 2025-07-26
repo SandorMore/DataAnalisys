@@ -11,8 +11,9 @@ print('\"negate\"')
 
 class Sigma:
     def __init__(self, kor : int):
+        self.kor = kor
         print(kor)
 
 Sigma1 = Sigma(12)
 
-print(Sigma1)
+print(Sigma1.kor)

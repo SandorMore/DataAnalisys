@@ -18,4 +18,4 @@ class Sigma:
 #no double printing
 Sigma1 = Sigma(12)
 
-print(Sigma1.Print(Sigma1.kor))
+print(Sigma1.Print())

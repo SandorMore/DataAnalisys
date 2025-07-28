@@ -12,7 +12,10 @@ print('\"negate\"')
 class Sigma:
     def __init__(self, kor : int):
         self.kor = kor
+    
+    def Print(msg : str):
+        print(msg)
 #no double printing
 Sigma1 = Sigma(12)
 
-print(Sigma1.kor)
+print(Sigma1.Print(Sigma1.kor))

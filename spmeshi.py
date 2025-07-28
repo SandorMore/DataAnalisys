@@ -19,3 +19,5 @@ class Sigma:
 Sigma1 = Sigma(12)
 
 print(Sigma1.Print())
+for i, j in enumerate([1,2,3,4]):
+    print(i, j)

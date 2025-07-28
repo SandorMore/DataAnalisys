@@ -20,4 +20,4 @@ Sigma1 = Sigma(12)
 
 print(Sigma1.Print())
 for i, j in enumerate([7,21,323,421,123,55,7534,1]):
-    print(f"Index is: {i}, and value is: {j}!")
+    print(f"Index is: {i}, and value is: {j}")

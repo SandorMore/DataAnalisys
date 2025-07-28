@@ -19,5 +19,5 @@ class Sigma:
 Sigma1 = Sigma(12)
 
 print(Sigma1.Print())
-for i, j in enumerate([1,2,3,4]):
-    print(i, j)
+for i, j in enumerate([7,21,323,421]):
+    print(f"Index is: {i}, and value is: {j}!")

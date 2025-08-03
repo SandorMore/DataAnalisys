@@ -23,4 +23,4 @@ for i, j in enumerate([7,21,323,421,123,55,7534,1]):
     print(f"Index is: {i}, and value is: {j}")
 
 nums = [1,2,34,5,6,7,8,9]
-print(list(num for num in nums if num >= 5))
+print(list(num for num in map(int, nums) if num >= 5))

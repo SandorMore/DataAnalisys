@@ -35,4 +35,7 @@ printf("asd")
 
 def sort(list):
     list = list.sorte()
-    
+    return list
+
+a = [2,1,23,12,1012,3]
+sort(a)

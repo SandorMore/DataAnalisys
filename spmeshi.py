@@ -33,3 +33,6 @@ print(list(num for num in map(int, nums) if num >= 5))
 printf("asd")
 
 
+def sort(list):
+    list = list.sorte()
+    

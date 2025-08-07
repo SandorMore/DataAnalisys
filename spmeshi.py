@@ -26,7 +26,7 @@ def printf(msg):
 nums = [1,2,34,5,6,7,8,9]
 for i in range(0, 21):
     printf("asd")
-print(list(num for num in map(int, nums) if num >= 5))
+print(list(set(tuple(list(num for num in map(int, nums) if num >= 5)))))
 
 
     
